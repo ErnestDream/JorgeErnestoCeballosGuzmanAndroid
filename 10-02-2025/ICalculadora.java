@@ -1,6 +1,4 @@
-interface ICalculadora{
+public interface ICalculadora{
 	//primera opcion
-	Double calcularoperatio(Operacion operacion);
-
-	
+	Double calcular(Operacion operacion);	
 }
