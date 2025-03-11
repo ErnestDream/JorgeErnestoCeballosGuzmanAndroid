@@ -5,7 +5,8 @@ import java.math.BigDecimal;
 public class Calculadora implements iCalculadora{
     @Override
     public BigDecimal calculate(Operacion operacion, BigDecimal x, BigDecimal y) {
-        switch (operacion){
+        switch (operacion)
+        {
             case SUMA:
                 return x.add(y);
             case RESTA:
@@ -15,8 +16,8 @@ public class Calculadora implements iCalculadora{
             case DIV:
                 return x.divide(y);
             case PORC:
-                return BigDecimal.Cero;
+                return BigDecimal.ZERO;
         }
-        return null;
+        return BigDecimal.ZERO;
     }
 }

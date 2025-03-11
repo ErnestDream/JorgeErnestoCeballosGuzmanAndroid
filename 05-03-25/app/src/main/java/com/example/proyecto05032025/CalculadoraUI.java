@@ -5,18 +5,22 @@ import android.content.Context;
 import android.widget.Button;
 import android.widget.TextView;
 
+import java.math.BigDecimal;
+
 public class CalculadoraUI implements iCalculadoraUI {
 
-    ICalculadoraMemoria memoria = new CalculadoraMemoria();
+    CalculadoraOnResult calculadoraResult = null;
+    iCalculadora logica;
+    iCalculadoraMemoria memoria = new CalculadoraMemoria();
     Context context;
     TextView txvDisplay;
     Button btnSuma;
     Button btnResta;
-    Button btnDivision;
     Button btnMultiplicacion;
-    Button btnPunto;
+    Button btnDivision;
     Button btnPorcentaje;
     Button btnMAsMenos;
+    Button btnPunto;
     Button btnIgual;
     Button btnClear;
     Button btnUno;
@@ -30,7 +34,9 @@ public class CalculadoraUI implements iCalculadoraUI {
     Button btnNueve;
     Button btnCero;
 
-    public CalculadoraUI(Activity activity){
+    public CalculadoraUI(Activity activity, iCalculadora logica)
+    {
+        this.logica = logica;
         context = activity.getApplicationContext();
         txvDisplay = activity.findViewById(R.id.salida_textView);
         btnCero = activity.findViewById(R.id.cero_button);
@@ -53,6 +59,88 @@ public class CalculadoraUI implements iCalculadoraUI {
         btnPorcentaje = activity.findViewById(R.id.porciento_button);
         btnClear =activity.findViewById(R.id.ac_button);
 
+        btnCero.setOnClickListener(v -> {
+            addNumber("0");
+        });
+
+        btnUno.setOnClickListener(v -> {
+            addNumber("1");
+        });
+        btnDos.setOnClickListener(v -> {
+            addNumber("2");
+        });
+        btnTres.setOnClickListener(v -> {
+            addNumber("3");
+        });
+
+        btnCuatro.setOnClickListener(v -> {
+            addNumber("4");
+        });
+
+        btnCinco.setOnClickListener(v -> {
+            addNumber("5");
+        });
+
+        btnSeis.setOnClickListener(v -> {
+            addNumber("6");
+        });
+
+        btnSiete.setOnClickListener(v -> {
+            addNumber("7");
+        });
+        btnOcho.setOnClickListener(v -> {
+            addNumber("8");
+        });
+        btnNueve.setOnClickListener(v -> {
+            addNumber("9");
+        });
+
+        btnMAsMenos.setOnClickListener(v -> {
+        });
+
+        btnClear.setOnClickListener(v -> {
+            clearScreen();
+        });
+
+        btnIgual.setOnClickListener(v -> {
+            if (calculadoraResult != null)
+            {
+                calculadoraResult.onResult(
+                        memoria.getX(),
+                        memoria.getY(),
+                        memoria.getOperacion()
+                );
+            }
+        });
+
+        btnSuma.setOnClickListener(v ->{
+            addOperation(Operacion.SUMA);
+        });
+
+        btnResta.setOnClickListener(v ->{
+            addOperation(Operacion.RESTA);
+        });
+
+        btnMultiplicacion.setOnClickListener(v ->{
+            addOperation(Operacion.MULT);
+        });
+
+        btnDivision.setOnClickListener(v ->{
+            addOperation(Operacion.DIV);
+        });
+
+        btnPorcentaje.setOnClickListener(v ->{
+            addOperation(Operacion.PORC);
+        });
+
+        btnPunto.setOnClickListener(v ->{
+
+        });
+
+        setOnResult((x, y, operacion) -> {
+            BigDecimal result = logica.calculate(operacion, x, y);
+            txvDisplay.setText(String.valueOf(result));
+        });
     }
 
     @Override
@@ -62,34 +150,24 @@ public class CalculadoraUI implements iCalculadoraUI {
     }
 
     @Override
-    public void showResult(String result) {
+    public void showResult(String result)
+    {
         txvDisplay.setText(result);
     }
-
     @Override
     public String addNumber(String numero) {
-        txvDisplay.setText(numero);
-        return memoria.concat(numero);
+        String newValue = memoria.concat(numero);
+        txvDisplay.setText(newValue);
+        return newValue;
     }
 
     @Override
-    public String addOperation(String operacion) {
-        return "";
-    }
-
-    @Override
-    public String addOperation(Operacion operacion) {
+    public void addOperation(Operacion operacion) {
         txvDisplay.setText(Operacion.convert(operacion));
-        return memoria.concat(numero);
+        memoria.concat(operacion);
     }
-
-    @Override
-    public void makeOperation(Operacion operacion) {
-        
-    }
-
-    @Override
-    public void result() {
-
+    public void setOnResult(CalculadoraOnResult result)
+    {
+        this.calculadoraResult = result;
     }
 }

@@ -50,8 +50,9 @@ public enum Numeracion {
                 return "9";
             case CERO:
                 return "0";
+            case NONE:
+                return "";
         }
-        return String;
+        return "";
     }
-
 }

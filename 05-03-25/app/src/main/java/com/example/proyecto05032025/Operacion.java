@@ -21,6 +21,6 @@ public enum Operacion {
             case NONE:
                 return "Error";
         }
+        return "";
     }
-    return "";
 }
