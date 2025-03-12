@@ -19,5 +19,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "contactosApp"
+rootProject.name = "contactosapp100325"
 include(":app")

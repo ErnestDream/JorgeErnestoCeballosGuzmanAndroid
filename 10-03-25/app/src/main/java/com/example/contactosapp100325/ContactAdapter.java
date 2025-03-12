@@ -1,4 +1,4 @@
-package com.example.contactosapp;
+package com.example.contactosapp100325;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -6,17 +6,17 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
-import androidx.recyclerview.widget.ListAdapter;
 import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.List;
 
-public class ContactAdapter extends RecyclerView.Adapter<ContactAdapter.ViewHolder>{
+public class ContactAdapter extends RecyclerView.Adapter<ContactAdapter.ViewHolder> {
 
-    public static class ViewHolder extends RecyclerView.ViewHolder{
+    public static class ViewHolder extends RecyclerView.ViewHolder {
 
         TextView txvName;
         TextView txvPhone;
+
 
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
@@ -24,29 +24,26 @@ public class ContactAdapter extends RecyclerView.Adapter<ContactAdapter.ViewHold
             this.txvPhone = itemView.findViewById(R.id.txvPhone);
         }
 
-        public void setName(String txvName)
-        {
+        public void setName(String txvName) {
             this.txvName.setText(txvName);
         }
-        public void setPhone(String txvPhone)
-        {
+
+        public void setPhone(String txvPhone) {
             this.txvPhone.setText(txvPhone);
         }
     }
 
     List<Contact> listContacts;
-    public ContactAdapter(List<Contact> listContacts)
-    {
+
+    public ContactAdapter(List<Contact> listContacts) {
         this.listContacts = listContacts;
     }
-
 
     @NonNull
     @Override
     public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View view = LayoutInflater.from(parent.getContext())
-                .inflate(R.layout.item_contac, parent, false);
-
+                .inflate(R.layout.item_contact, parent, false);
         return new ViewHolder(view);
     }
 
