@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:rowCount="1"
+    android:columnCount="2"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:id="@+id/lytMain"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        tools:context=".MainActivity"
+        android:background="@color/white">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnAgrega"
+        android:text="Apachurrame"
+        android:layout_gravity="center"
+        />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/lytMain2"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="end"
+        tools:context=".MainActivity"
+        android:background="@color/white">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnAgrega2"
+            android:text="Aprietame"
+            android:layout_gravity="center"
+            />
+
+
+    </LinearLayout>
+
+</GridLayout>
