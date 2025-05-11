@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8b3be9bb-84cf-45be-8de7-8e69742232b4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../21-04-25/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../21-04-25/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../21-04-25/.idea/AndroidProjectSystem.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../21-04-25/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../21-04-25/.idea/deploymentTargetSelector.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../21-04-25/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../21-04-25/.idea/migrations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../21-04-25/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../21-04-25/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../21-04-25/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../21-04-25/21-04-252/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../21-04-25/21-04-252/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../21-04-25/21-04-252/app/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../21-04-25/21-04-252/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../21-04-25/21-04-252/app/src/androidTest/java/com/example/a21abril2/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../21-04-25/21-04-252/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../21-04-25/21-04-252/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../21-04-25/21-04-252/app/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../21-04-25/21-04-252/app/src/main/res/mipmap-anydpi/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../21-04-25/21-04-252/app/src/main/res/mipmap-anydpi/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../21-04-25/21-04-252/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../21-04-25/21-04-252/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../21-04-25/21-04-252/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../21-04-25/21-04-252/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../21-04-25/21-04-252/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../21-04-25/21-04-252/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../21-04-25/21-04-252/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../21-04-25/21-04-252/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../21-04-25/21-04-252/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../21-04-25/21-04-252/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../21-04-25/21-04-252/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../21-04-25/21-04-252/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../21-04-25/21-04-252/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../21-04-25/21-04-252/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../21-04-25/21-04-252/app/src/main/res/xml/backup_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../21-04-25/21-04-252/app/src/main/res/xml/data_extraction_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../21-04-25/21-04-252/app/src/test/java/com/example/a21abril2/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../21-04-25/21-04-252/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../21-04-25/21-04-252/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../21-04-25/21-04-252/gradle/libs.versions.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../21-04-25/21-04-252/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../21-04-25/21-04-252/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../21-04-25/21-04-252/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../21-04-25/21-04-252/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../21-04-25/21-04-252/settings.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../21-04-25/app/src/main/java/com/example/a21abril/AuthToken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../21-04-25/app/src/main/java/com/example/a21abril/Authenticator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../21-04-25/app/src/main/java/com/example/a21abril/Usuario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../21-04-25/app/src/test/java/com/example/a21abril/AuthTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../30-04-25/app/src/androidTest/java/com/example/videos/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../30-04-25/app/src/main/java/com/example/videos/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../30-04-25/app/src/test/java/com/example/videos/ExampleUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-03-25/CalculadoraProfe/Android2025-2" beforeDir="false" afterPath="$PROJECT_DIR$/../05-03-25/CalculadoraProfe/Android2025-2" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="2wS5EnLiLCUgOFLB25H0H65AcV8" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "android.gradle.sync.needed": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/ernes/andrioid2025/JorgeErnestoCeballosGuzmanAndroid/30-04-2025-2/codelab-exoplayer-intro-main"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8b3be9bb-84cf-45be-8de7-8e69742232b4" name="Changes" comment="" />
+      <created>1746022027611</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1746022027611</updated>
+    </task>
+    <servers />
+  </component>
+</project>
